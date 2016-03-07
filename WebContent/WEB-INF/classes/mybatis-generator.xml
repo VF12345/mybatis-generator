@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >  
+	<generatorConfiguration >  
+		<context id="context1">
+		<!-- 数据库连接相关信息 -->  
+		<jdbcConnection 
+			driverClass="com.mysql.jdbc.Driver" 
+			connectionURL="jdbc:mysql://192.168.1.189:33668/gcmobile" 
+			userId="gcsqlnewtest" 
+			password="mjPUuLZhqtBQa30" />
+		  
+		<javaModelGenerator 
+			targetPackage="com.cxdaiweb.account.systemmessage.model" 
+			targetProject="mybatis-generator" />  
+		<sqlMapGenerator 
+			targetPackage="com.cxdaiweb.account.systemmessage.model" 
+			targetProject="mybatis-generator" />  
+		<javaClientGenerator 
+			targetPackage="com.cxdaiweb.account.systemmessage.model" 
+			targetProject="mybatis-generator" type="XMLMAPPER" />
+		  
+		<table 
+			schema="" 
+			tableName="t_member_log" 
+			domainObjectName="MemberLog">
+		
+			
+		</table>  
+		</context>  
+	</generatorConfiguration>
+  
