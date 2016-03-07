@@ -5,7 +5,7 @@
 		<!-- 数据库连接相关信息 -->  
 		<jdbcConnection 
 			driverClass="com.mysql.jdbc.Driver" 
-			connectionURL="jdbc:mysql://192.168.1.189:33668/gcmobile" 
+			connectionURL="jdbc:mysql://127.0.0.1:3306/gcmobile" 
 			userId="gcsqlnewtest" 
 			password="mjPUuLZhqtBQa30" />
 		  
